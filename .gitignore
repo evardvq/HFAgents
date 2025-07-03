@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+gaia_checkpoints.db
+
+# Test and debug scripts
+test_*.py
+debug_*.py
+fix_*.py
+analyze_*.py
+verify_*.py
+view_*.py
+deep_debug_*.py
+comprehensive_fix.py
+final_comprehensive_fix.py
+final_test.py
+
+# Result files
+*_results.json
+*test_results*.json
+gaia_evaluation_results_*.json
+gaia_test_results_*.json
+
+# Backup files
+*.backup
+*_backup.py
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Generated documentation
+*.md~
+
+# Files directory (for downloaded GAIA task files)
+files/
+
+# Gradio
+flagged/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing artifacts
+htmlcov/
+.coverage
+.pytest_cache/
+.tox/
+
+# Simple/temporary implementations
+*_simple.py
+
+# API test artifacts
+*api_test*.json
+*api_test*.log
+GAIA_API_TEST_SUMMARY.md

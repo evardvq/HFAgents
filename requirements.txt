@@ -1,0 +1,34 @@
+# requirements.txt
+# Core dependencies
+langgraph>=0.2.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+
+# OpenAI
+openai>=1.0.0
+
+# Web tools
+tavily-python>=0.3.0
+beautifulsoup4>=4.12.0
+markdownify>=0.11.6
+requests>=2.31.0
+
+# File processing
+pypdf2>=3.0.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+Pillow>=10.0.0
+
+# Date parsing
+python-dateutil>=2.8.2
+
+# UI
+gradio>=4.0.0
+
+# Utilities
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+
+# Optional but recommended
+numpy>=1.24.0
