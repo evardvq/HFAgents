@@ -90,3 +90,26 @@ htmlcov/
 *api_test*.json
 *api_test*.log
 GAIA_API_TEST_SUMMARY.md
+
+# Submission files and evaluation results
+*.jsonl
+gaia_submission_*.jsonl
+gaia_final_submission_*.jsonl
+test_submission.jsonl
+gaia_progress_*.json
+
+# Alternative/experimental agent implementations
+gaia_submission_agent.py
+gaia_submission_wrapper.py
+create_gaia_submission.py
+
+# Test and utility scripts
+check_total_questions.py
+test_*.py
+*_test.py
+*_test_*.py
+test_submission_agent.py
+
+# Checkpoints and database files
+gaia_submission_checkpoints.db
+*.checkpoint
